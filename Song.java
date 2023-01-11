@@ -45,4 +45,8 @@ public class Song {
         return duration;
     }
 
+    public String toString(){
+        return "Name: " + name + ", artist: " + artist + ", duration: " + duration;
+    }
+
 }
