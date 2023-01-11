@@ -56,7 +56,7 @@ public class Song {
     }
 
     public String toString(){
-        return "Name: " + name + ", artist: " + artist + ", duration: " + duration;
+        return "Name: " + name + ", artist: " + artist + ", duration: " + duration + ", liked: " + unliked;
     }
 
 }
