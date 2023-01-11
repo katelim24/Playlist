@@ -7,7 +7,7 @@ public class Song {
     //Fields-- what information do we want each Song to store?
     private String name;
     private String artist;
-    private double duration;
+    private String duration;
 
 
 
@@ -37,12 +37,12 @@ public class Song {
         return name;
     }
 
-
-
-
     public String getArtist(){
         return artist;
     }
 
+    public String getDuration(){
+        return duration;
+    }
 
 }
