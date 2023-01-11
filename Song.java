@@ -37,12 +37,12 @@ public class Song {
         return name;
     }
 
-
-
-
     public String getArtist(){
         return artist;
     }
 
+    public double getDuration(){
+        return duration;
+    }
 
 }
