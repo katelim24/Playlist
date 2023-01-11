@@ -18,8 +18,7 @@ public class Playlist {
       * then use additional methods to add Songs in one-by-one
       */
       public Playlist(){
-        totalDuration = 0;
-        playlist = new ArraryList<Song>();
+        playlist = new ArrayList<Song>();
       }
 
 
