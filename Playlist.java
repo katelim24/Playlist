@@ -42,4 +42,8 @@ public class Playlist {
         public void likeSong(Song a){
             a.changeStatus();
         }
+
+        public void removeSong(int position){
+            playlist.remove(position);
+        }
 }
