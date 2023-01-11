@@ -10,7 +10,9 @@ public class Playlist {
      * (CarDealership, Zoo) for structure on how this will look
      */
 
-
+    private ArrayList<Song> playlist;
+    private String liked;
+    private double totalDuration;
 
 
      /**
