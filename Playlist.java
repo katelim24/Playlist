@@ -12,7 +12,6 @@ public class Playlist {
 
     private ArrayList<Song> playlist;
     private String liked;
-    private double totalDuration;
 
      /**
       * Constructor-- this doesn't need any parameters. You should just initialize the ArrayList and
