@@ -34,4 +34,12 @@ public class Playlist {
        * Determining the total duration of all songs
        * Removing all unliked songs from the playlist (careful with this one!)
        */
+
+        public void addSong(Song a){
+            playlist.add(a);
+        }
+
+        public void likeSong(Song a){
+            a.changeStatus();
+        }
 }
