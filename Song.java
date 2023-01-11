@@ -33,5 +33,8 @@ public class Song {
       * What kind of mutator (setter) methods will you need?
       */
 
+    public String getName(){
+        return name;
+    }
 
 }
