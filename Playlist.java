@@ -35,7 +35,6 @@ public class Playlist {
        * Removing all unliked songs from the playlist (careful with this one!)
        */
 
-       
         public void addSong(Song a){
             playlist.add(a);
         }
@@ -54,5 +53,14 @@ public class Playlist {
                 s+= a.toString();
             }
             return s;
+        }
+
+        public String likedSongs(){
+            String liked = "";
+            for(int i = 0; i < playlist.size(); i++){
+                if(playlist.get(i).getStatus() == true){
+                    
+                }
+            }
         }
 }
