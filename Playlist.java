@@ -47,4 +47,12 @@ public class Playlist {
         public void removeSong(int position){
             playlist.remove(position);
         }
+
+        public String toString(){
+            String s = "";
+            for (Song a: playlist){
+                s+= a.toString();
+            }
+            return s;
+        }
 }
