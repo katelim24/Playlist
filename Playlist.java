@@ -59,8 +59,9 @@ public class Playlist {
             String liked = "";
             for(int i = 0; i < playlist.size(); i++){
                 if(playlist.get(i).getStatus() == true){
-                    
+                    liked += playlist.get(i);
                 }
             }
+            return liked;
         }
 }
