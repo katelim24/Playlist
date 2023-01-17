@@ -64,4 +64,12 @@ public class Playlist {
             }
             return liked;
         }
+
+        public double totalDuration(Song a){
+            double count = 0;
+            for(int i = 0; i < playlist.size(); i++){
+                (playlist.get(i)).getDuration();
+            }
+            return count;
+        }
 }
