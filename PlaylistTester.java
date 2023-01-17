@@ -39,17 +39,17 @@ public class PlaylistTester {
 
 
         System.out.println("Printing the songs...\n");
-
+        a.toString();
 
         System.out.println("\nRemoving the song in position A, B, C, etc...\n");
 
 
         System.out.println("Printing the songs...\n");
-
+        a.toString();
 
         System.out.println("\nPrinting only the liked songs...\n");
         //Your Playlist should be able to do this without looping while in main!
-
+        System.out.println(a.likedSongs());
 
         System.out.println("\nPrinting the total duration of all songs...\n");
         //Note that the format should look something like minutes:seconds
@@ -61,5 +61,6 @@ public class PlaylistTester {
 
         System.out.println("Printing all songs...\n");
         //This should now look like only the liked songs list from before
+        a.toString();
     }
 }
