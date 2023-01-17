@@ -72,4 +72,13 @@ public class Playlist {
             }
             return count;
         }
+
+        public ArrayList<Song> removeUnliked(){
+            for(int i = 0; i < playlist.size(); i++){
+                if((playlist.get(i)).getStatus() == true){
+                    playlist.remove(i);
+                }
+            }
+            return playlist;
+        }
 }
