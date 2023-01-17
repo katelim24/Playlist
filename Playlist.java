@@ -71,9 +71,9 @@ public class Playlist {
             int mins = 0;
             int seconds = 0;
             for(int i = 0; i < playlist.size(); i++){
-                current = (playlist.get(i)).getDuration();
-                mins = (int)current;
-                seconds = (int)(current = (int)current)*100;
+                current += (playlist.get(i)).getDuration();
+                mins += (int)current;
+                seconds += (int)(current = (int)current)*100;
                 total = mins + ":" + seconds;
             }
             return total;
