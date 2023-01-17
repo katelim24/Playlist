@@ -9,6 +9,7 @@
 public class PlaylistTester {
     public static void main(String[] args) {
         System.out.println("Initializing a Playlist...\n");
+        //initialize a new playlist
         Playlist a = new Playlist();
 
         System.out.println("Adding songs to the Playlist...\n");
@@ -24,6 +25,7 @@ public class PlaylistTester {
 
         System.out.println("Printing the songs...\n");
         //Print out all the songs in the playlist to verify it's working correctly
+        a.toString();
 
 
         System.out.println("\nLiking the songs in position X, Y, Z, etc....\n");
