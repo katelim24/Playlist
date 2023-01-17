@@ -68,7 +68,7 @@ public class Playlist {
         public double totalDuration(){
             double count = 0;
             for(int i = 0; i < playlist.size(); i++){
-                (playlist.get(i)).getDuration();
+                count += (playlist.get(i)).getDuration();
             }
             return count;
         }
