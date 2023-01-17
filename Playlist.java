@@ -66,12 +66,26 @@ public class Playlist {
         }
 
         public double totalDuration(){
-            double count = 0;
+            double current = 0;
+            int mins = 0;
+            int seconds = 0;
             for(int i = 0; i < playlist.size(); i++){
-                count += (playlist.get(i)).getDuration();
+                current = (playlist.get(i)).getDuration();
+                mins = (int)current;
+                seconds = (int)(current = (int)current)*100;
             }
             return count;
         }
+
+        private void simplify(){
+            double duration = 0;
+            int mins = (int)duration;
+            int seconds = (int)(duration = (int)duration)*100;
+            if(seconds >= 60){
+                mins = mins + (seconds / 60);
+                seconds = seconds % 60;
+            }
+        } 
 
         public ArrayList<Song> removeUnliked(){
             for(int i = 0; i < playlist.size(); i++){
