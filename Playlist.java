@@ -65,16 +65,18 @@ public class Playlist {
             return liked;
         }
 
-        public double totalDuration(){
+        public String totalDuration(){
             double current = 0;
+            String total = "";
             int mins = 0;
             int seconds = 0;
             for(int i = 0; i < playlist.size(); i++){
                 current = (playlist.get(i)).getDuration();
                 mins = (int)current;
                 seconds = (int)(current = (int)current)*100;
+                total = mins + ":" + seconds;
             }
-            return count;
+            return total;
         }
 
         private void simplify(){
