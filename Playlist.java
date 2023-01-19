@@ -51,6 +51,7 @@ public class Playlist {
             String s = "";
             for (Song a: playlist){
                 s+= a.toString();
+                s+= " ";
             }
             return s;
         }
