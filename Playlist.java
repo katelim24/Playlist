@@ -59,7 +59,7 @@ public class Playlist {
         public String likedSongs(){
             String liked = "";
             for(int i = 0; i < playlist.size(); i++){
-                if(playlist.get(i).getStatus() == true){
+                if(playlist.get(i).getStatus() == false){
                     liked += playlist.get(i);
                 }
             }
