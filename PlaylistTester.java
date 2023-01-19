@@ -40,7 +40,7 @@ public class PlaylistTester {
 
 
         System.out.println("Printing the songs...\n");
-        a.toString();
+        System.out.println(a.toString());
 
         System.out.println("\nRemoving the song in position A, B, C, etc...\n");
         System.out.println("Removing song at position 1");
@@ -51,7 +51,7 @@ public class PlaylistTester {
 
 
         System.out.println("Printing the songs...\n");
-        a.toString();
+        System.out.println(a.toString());
 
         System.out.println("\nPrinting only the liked songs...\n");
         //Your Playlist should be able to do this without looping while in main!
@@ -67,6 +67,6 @@ public class PlaylistTester {
 
         System.out.println("Printing all songs...\n");
         //This should now look like only the liked songs list from before
-        a.toString();
+        System.out.println(a.toString());
     }
 }
