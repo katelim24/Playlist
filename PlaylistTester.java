@@ -46,7 +46,7 @@ public class PlaylistTester {
         System.out.println("Removing song at position 1");
         a.removeSong(1);
         System.out.println("Removing song at position 2");
-        a.removeSong(2);
+        a.removeSong(1);
 
 
 
