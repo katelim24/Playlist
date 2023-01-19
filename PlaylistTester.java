@@ -19,18 +19,18 @@ public class PlaylistTester {
          * p.addSong(new Song(..., ..., ...))
          */
 
-        Song s = new Song("Name", "Artist", 2.21, true);
+        Song s = new Song("Luck Be A Lady", "Frank Sinatra", 5.14, true);
         a.addSong(s);
-        a.addSong(new Song("Name", "Artist", 3.42, true));
-        a.addSong(new Song("Name", "Artist", 1.12, true));
-        a.addSong(new Song("Name", "Artist", 4.38, true));
-        a.addSong(new Song("Name", "Artist", 2.08, true));
+        a.addSong(new Song("The Girl From Impanema", "Frank Sinatra", 3.14, true));
+        a.addSong(new Song("Kill Bill", "SZA", 2.33, true));
+        a.addSong(new Song("Star Man", "David Bowie", 4.13, true));
+        a.addSong(new Song("Can't Take My Eyes Off of You", "Lauren Hill", 3.40, true));
 
 
 
         System.out.println("Printing the songs...\n");
         //Print out all the songs in the playlist to verify it's working correctly
-        a.toString();
+        System.out.println(a.toString());
 
 
         System.out.println("\nLiking the songs in position X, Y, Z, etc....\n");
