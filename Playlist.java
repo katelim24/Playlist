@@ -88,6 +88,7 @@ public class Playlist {
             for(int i = 0; i < playlist.size(); i++){
                 if((playlist.get(i)).getStatus() == true){
                     playlist.remove(i);
+                    i--;
                 }
             }
             return playlist;
